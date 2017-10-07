@@ -59,7 +59,8 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.12.2)
+    coffee-script-source (1.8.0)
+    commonjs (0.2.7)
     concurrent-ruby (1.0.5)
     crass (1.0.2)
     erubi (1.6.1)
@@ -71,6 +72,15 @@ GEM
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
+    less (2.6.0)
+      commonjs (~> 0.2.7)
+    less-rails (2.8.0)
+      actionpack (>= 4.0)
+      less (~> 2.6.0)
+      sprockets (> 2, < 4)
+      tilt
+    less-rails-bootstrap (3.3.5.0)
+      less-rails (>= 2.6, <= 2.8)
     loofah (2.1.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -172,7 +182,9 @@ DEPENDENCIES
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
+  coffee-script-source (= 1.8.0)
   jbuilder (~> 2.5)
+  less-rails-bootstrap
   puma (~> 3.7)
   rails (~> 5.1.4)
   sass-rails (~> 5.0)
