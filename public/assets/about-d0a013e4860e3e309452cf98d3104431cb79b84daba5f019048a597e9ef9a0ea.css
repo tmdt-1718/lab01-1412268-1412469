@@ -1,0 +1,13 @@
+/* line 5, D:/STUDY/NAM 4/HK1/TMDT/Lab01/app/assets/stylesheets/about.scss */
+.map img {
+  width: 100%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 12, D:/STUDY/NAM 4/HK1/TMDT/Lab01/app/assets/stylesheets/about.scss */
+.thumbnail img {
+  max-height: 100%;
+  max-width: 100%;
+}

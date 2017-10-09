@@ -1,0 +1,19 @@
+/* line 4, D:/STUDY/NAM 4/HK1/TMDT/Lab01/app/assets/stylesheets/sessions.scss */
+form {
+  width: 100%;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 200px;
+  padding-top: 60px;
+}
+
+/* line 12, D:/STUDY/NAM 4/HK1/TMDT/Lab01/app/assets/stylesheets/sessions.scss */
+input, button, link {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
