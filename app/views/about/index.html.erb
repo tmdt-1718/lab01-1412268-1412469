@@ -1,2 +1,46 @@
-<h1>About#index</h1>
-<p>Find me in app/views/about/index.html.erb</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%= stylesheet_link_tag 'about' %>  
+  </head>
+  <body>
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-8">
+
+          <!-- Title -->
+          <h1 class="mt-4">About Page</h1>
+          
+          <div class="card my-4">
+            <h5 class="card-header">Member 1</h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-4 image">
+                  
+                </div>
+                <div class="col-lg-4">
+                abc
+                </div>
+              </div>
+              <div class="map">
+                <%= image_tag google_map(70,70) %>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Side Menu -->
+        <%= render "layouts/sidemenu" %>        
+
+        </div>
+        <!-- /.row -->
+  
+      </div>
+      <!-- /.container -->
+
+  </body>
+</html>
