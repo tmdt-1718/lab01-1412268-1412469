@@ -19,15 +19,17 @@
             <h5 class="card-header">Member 1</h5>
             <div class="card-body">
               <div class="row">
-                <div class="col-lg-4 image">
-                  
+                <div class="col-lg-4 thumbnail">
+                  <%= image_tag("/assets/member_1.jpg", :alt => "rss feed") %>
                 </div>
-                <div class="col-lg-4">
-                abc
+                <div class="col-lg-6">
+                  <p><b>Student ID:</b> 1412268</p>
+                  <p><b>Full Name:</b> Trung-Kien Nguyen</p>
+                  <p><b>Contact Me:</b> (+84) 913171585</p>
                 </div>
               </div>
               <div class="map">
-                <%= image_tag google_map(70,70) %>
+                <%= image_tag google_map(10.762677, 106.682569) %>
               </div>
             </div>
           </div>

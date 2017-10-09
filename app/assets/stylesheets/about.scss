@@ -2,14 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-map {
+.map img {
     width: 100%;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
-image {
-    max-width: 300px;
-    width: 20%;
+.thumbnail img {
+    max-height: 100%;
+    max-width: 100%;
 }
